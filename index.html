@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>R.A.S</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Cargando...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div class="logo-and-title">
+                    <img class="img-fluid animated pulse infinite" style="height: 60px; width: 60px;" src="img/snake-with-pin-map-location-logo-symbol-icon-design-illustration-vector-removebg-preview.png">
+                    <h1>R.A.S</h1>
+                </div>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                        <a href="report.html" class="nav-item nav-link">Reporte</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Especies Comunes</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="reptil.html" class="dropdown-item">Reptiles</a>
+                                <a href="amfibios.html" class="dropdown-item">Amfibios</a>
+                                <!--<a href="testimonial.html" class="dropdown-item">#</a>
+                                <a href="blog.html" class="dropdown-item">#</a>
+                                <a href="404.html" class="dropdown-item">#</a>-->
+                            </div>
+                        </div>
+                        <!--<a href="contact.html" class="nav-item nav-link">Contacto Con el Siga</a>-->
+                    </div>
+                    <a href="" class="btn btn-dark py-2 px-4 d-none d-lg-inline-block">Frecuencia de Avistamiento </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary hero-header mb-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3 class="fw-light text-white animated slideInRight">R.A.S</h3>
+                    <h1 class="display-4 text-white animated slideInRight">REPTILES Y <span class="fw-light text-dark">ANFIBIOS</span> DEL SIGA</h1>
+                    <p class="text-white mb-4 animated slideInRight">nuestra funcion es garantizar la seguridad y convivencia en el CBC, proporcionando información vital sobre anfibios y reptiles.</p>
+                    <a href="report.html" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">REPORTAR</a>
+                    <a href="contact.html" class="btn btn-outline-dark py-2 px-4 animated slideInRight">CONTACTO</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid animated pulse infinite" src="img/serpiente_nueva_especie_-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="feature-item position-relative bg-primary text-center p-3">
+                        <div class="border py-5 px-3">
+                            <img src="img/icons8-error-100.png" alt="" srcset="" height="60px" width="60px"><br>
+                            <br>
+                            <h5 class="text-white mb-0">Reportar avistamiento</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item position-relative bg-primary text-center p-3">
+                        <div class="border py-5 px-3">
+                            <img src="img/icons8-rattlesnake-100.png" alt="" srcset="" height="60px" width="60px"><br>
+                            <br>
+                            <h5 class="text-white mb-0">Especies</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item position-relative bg-primary text-center p-3">
+                        <div class="border py-5 px-3">
+                            <img src="img/icons8-clock-100.png" alt="" srcset="" height="60px" width="60px"><br>
+                            <br>
+                            <h5 class="text-white mb-0">Frecuencia</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- PROBLEMATICA -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <center><img style="width: 68%; height: 68%;" class="img-fluid animated pulse infinite" src="img/pngegg.png"></center>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="text-primary mb-4">problematica<span class="fw-light text-dark"></span></h1>
+                    <p class="mb-4">La emergencia de riesgo biológico son situaciones inesperadas que necesitan de una atención inmediata, esta situación se agrava cuando las sociedades no cuentan con mecanismos efectivos de respuesta ante las emergencias de ataque y avistamiento de reptiles, esto provocado por el miedo ante diferentes situaciones</p>
+                    <p class="mb-4">Para solucionar esta problematica esto, se puede acudir a la tecnología, especialmente a la utilizada como medio de comunicación, por ejemplo, el uso del celular es una de las formas habituales para avisar emergencias. este aviso será inmediato, lo que puede facilitar la captura inmediata del reptil o el anfibio. </p>
+                    <h6>(si tiene alguna consulta puede comunicarse directamente con nosotros)</h6>
+                    <br><a class="btn btn-primary py-2 px-4" href="contact.html">contactanos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- boton de comunicacion -->
+
+
+    <!-- MUESTRA DEL LOGO -->
+    <div class="container-fluid deal bg-primary my-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/snake-with-pin-map-location-logo-symbol-icon-design-illustration-vector-removebg-preview.png">
+                </div>
+                <br><div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <center><img class="img-fluid animated pulse infinite" src="img/Captura de pantalla 2024-03-19 141856.png"><br><br></center>
+                    <div class="bg-white text-center p-4">
+                        <br><iframe class="w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.176758571064!2d-73.24303572496326!3d10.407531989719724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8aba4f9667eab3%3A0x3dcb64778485bc54!2sSENA%20CBC%20(Centro%20Biotecnologico%20del%20Caribe)!5e0!3m2!1ses!2sco!4v1709041532832!5m2!1ses!2sco"
+                            frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"tabindex="0">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin de muestra del logo -->
+
+
+    <div class="container-fluid py-5">
+        <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-primary mb-3"><span class="fw-light text-dark">Recomendaciones</span> medicas</h1>
+                <p class="mb-5">en este apartado se le otorgara recomendaciones medicas para su cuidado</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/blog-1.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">en caso de picadura</a>
+                        <div class="d-flex text-black-50 mb-2">
+                        </div>
+                        <p class="mb-4">Calme a la persona y póngala en reposo. Limpie la zona mordida con jabón para desinfectarla. Quítele cualquier torniquete que se haya hecho. Mantenga a la persona hidratada.</p>
+                        <a href="https://www.mayoclinic.org/es/first-aid/first-aid-snake-bites/basics/art-20056681" class="btn btn-outline-primary px-3">leer mas</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/blog-2.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">en caso de constricción</a>
+                        <p class="mb-4">La constricción es un método de estrangulamiento utilizado por varias especies de serpientes para matar a sus presas, en este caso tiene que evitar hacer movimientos bruscos y llamar a 911</p>
+                        <a href="https://www.msdmanuals.com/es-co/professional/lesiones-y-envenenamientos/mordeduras-y-picaduras/picaduras-de-serpientes" class="btn btn-outline-primary px-3">leer mas</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/blog-3.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">en caso de contacto con especie venenosa</a>
+                        <p class="mb-4">Si te pica una serpiente venenosa, llama inmediatamente al 911 o al número local de emergencias, sobre todo si la zona de la picadura cambia de color, se hincha o duele. Muchas salas de emergencias disponen de antídotos que pueden ayudarte.</p>
+                        <a href="https://www.casanare.gov.co/Prensa/saladeprensa/Paginas/Medidas-para-prevenir-accidentes-lon%C3%B3micos-por-contacto-con-orugas-venenosas-en-Casanare.aspx" class="btn btn-outline-primary px-3">en caso de picadura</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><hr>
+    <!-- Blog End -->
+
+           <!-- RECOMENDACIONES CONTRA ENCUENTROS DIRECTOS CON REPTIL O ANFIBIO VENENOSO -->
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-primary mb-3"><span class="fw-light text-dark">Recomendaciones</span> en caso de encontrar un especimen</h1>
+                <p class="mb-5">En la siguiente lista aremos una reomendaciones en caso de tener contacto con alguna de las especies comunes en la zona </p>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Que no hacer en caso de picaduras</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>en este caso es recomendable, no utilices un torniquete ni apliques hielo, No cortes la picadura ni intentes extraer el veneno, No ingieras cafeína ni alcohol,
+                                    No tomes analgésicos, como aspirina, ibuprofeno (Advil, Motrin IB, otros) ni naproxeno sódico (Aleve). Hacerlo puede aumentar el riesgo de hemorragia</span>
+                                    <br><br><h6>(ministerio de salud argentina)</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>En caso de tener contacto con un reptil venenoso</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Ante una posible intoxicación por veneno de sapo, es fundamental buscar atención veterinaria de inmediato. Cada minuto cuenta en estos casos, por lo que no se recomienda tratar la situación en casa. Solo un veterinario podrá proporcionar el tratamiento adecuado.</span>
+                                <br><br><h6>(ASGARD hospital veterinario)</h6>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Prevencion</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Corta el césped con frecuencia un césped corto evita que las culebras, serpientes y otros reptiles puedan esconderse en el jardín, Evita regar el césped en exceso.
+                                    Poda arbustos y árboles y No dejes la leña apilada en un lugar muy próximo a la casa.</span>
+                                    <br><br><h6>(ASGARD hospital veterinario)</h6>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Mantener la calma y mantener tu distancia.</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>No intentes agarrar ni atrapar a la serpiente. Intenta recordar su color y forma para poder describirla. Si es posible, haz una foto de la serpiente desde una distancia segura. Saber qué tipo de serpiente te ha mordido puede ayudar con el tratamiento.</span>
+                                <br><br><h6>(mayo clinic - clinica de cuidados ambientales)</h6>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Vestimenta adecuada para las zonas rojas</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Use indumentaria de protección siempre que le sea posible, las botas resistentes a las diferentes condiciones en las que se pueda en contrar
+                                    acompañado de pantalones lasgos de tela de jean 
+                                </span>
+                                <br><br><h6>(Universidad Complutense de Madrid)</h6>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Que hacer en caso de picaduras</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Aléjate de la serpiente.
+                                    Quédate inmóvil y mantén la calma,Quítate joyas, relojes o ropa ajustada antes de que empiece la hinchazón.
+                                    Siéntate o recuéstate de forma que la picadura quede en una posición neutra y cómoda,Limpia la zona con agua y jabón. Cúbrela o envuélvela holgadamente con un vendaje limpio y seco.
+                                </span>
+                                <br><br><h6>(mayo clinic - clinica de cuidados ambientales)</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- How To Use Start -->
+    <div class="container-fluid how-to-use bg-primary my-5 py-5">
+        <div class="container text-white py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-white mb-3"><span class="fw-light text-dark">Especies</span> Comunes
+                    <span class="fw-light text-dark">en el centro de formacion</span></h1>
+                <p class="mb-5">algunos datos y rasgos comunes en para poder indentificar a las especies.</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                        <img class="img-fluid animated pulse infinite" src="img/original-removebg-preview.png" alt="">
+                    </div>
+                    <h5 class="text-white">Falso Coral</h5>
+                    <hr class="w-25 bg-light my-2 mx-auto">
+                    <span>La falsa coral se diferencia de la especie venenosa en el orden de los anillos de colores. Mientras que la coral lleva el anillo blanco alternado entre cada color: rojo, blanco, negro, blanco,rojo... en la falsa coral el blanco solo se encuentra entre dos anillos negros: rojo, negro, blanco, negro, rojo... </span>
+                </div>
+                <div class="col-lg-4 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                        <img class="img-fluid animated pulse infinite" src="img/thpub_700x400_176508-removebg-preview.png" alt="">
+                    </div>
+                    <h5 class="text-white">Iguana Verde</h5>
+                    <hr class="w-25 bg-light my-2 mx-auto">
+                    <span>Animales diurnos caracterizados por su cabeza ancha, hocico redondo, papada colgante en la garganta, cuerpo robusto, 4 fuertes patas con uñas duras y afiladas y cresta desde la cabeza hasta su larga, delgada y aplanada cola que les sirve como látigo para defenderse. Son excelentes nadadoras y trepadoras.</span>
+                </div>
+                <div class="col-lg-4 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                        <img class="img-fluid animated pulse infinite" src="img/large-removebg-preview.png" alt="">
+                    </div>
+                    <h5 class="text-white">Lagartija Coliazul</h5>
+                    <hr class="w-25 bg-light my-2 mx-auto">
+                    <span>lagarto mediano,entre 48-67 mm de longitud, rostro-cloaca.Tiene una linea dorsal amplia castaño-bronce extendiendose desde el hocico hasta la cola. El nombre (bi = dos, fasciatus=dorsolaterales amarillo-crema a azul-)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- How To Use End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <center><img style="width: 70%; height: 70%;" class="img-fluid animated pulse infinite" src="img/serpst.png"></center>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="text-primary mb-4">Reportes<span class="fw-light text-dark"> y problematica</span></h1>
+                    <p class="mb-4">la finalidad de nuestro proyecto esta sentrada en registro de avistamiento de especies peligrosas en el área del CBC para que aprendices, instructores, funcionarios y personal general, tenga acceso a esta información brindándole seguridad a las especies habitadas en los espacios rurales en el área del CBC mediante una APP llamada R.A.S que muestra un mapa el cual tiene registro de avistamiento de especies peligrosas para la persona del CBC.</p>
+                    <p class="mb-4">El peligro que puede causar la falta de protección y maltrato hacia los animales es multifacético. No solo afecta a los animales y puede tener repercusiones en el medio ambiente y en la sociedad en general.</p>
+                    <h6>(en dado caso un avistamiento puede reportarlo aqui)</h6>
+                    <br><a class="btn btn-primary py-2 px-4" href="report.html">Reportar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial bg-primary my-5 py-5">
+        <div class="container text-white py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-white mb-3">Personal <span class="fw-light text-dark">Del SIGA</span></h1>
+                <p class="mb-5">En caso de emergencias acudir a las sigientes funcionarios</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
+                        <div class="testimonial-item text-center" data-dot="1">
+                            <img class="img-fluid border p-2" src="#" alt="">
+                            <h5 class="fw-light lh-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est. Nullam scelerisque libero nunc, vitae ullamcorper elit volutpat ut.</h5>
+                            <h5 class="mb-1">Client Name</h5>
+                            <h6 class="fw-light text-white fst-italic mb-0">Profession</h6>
+                        </div>
+                        <div class="testimonial-item text-center" data-dot="2">
+                            <img class="img-fluid border p-2" src="#" alt="">
+                            <h5 class="fw-light lh-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est. Nullam scelerisque libero nunc, vitae ullamcorper elit volutpat ut.</h5>
+                            <h5 class="mb-1">Client Name</h5>
+                            <h6 class="fw-light text-white fst-italic mb-0">Profession</h6>
+                        </div>
+                        <div class="testimonial-item text-center" data-dot="3">
+                            <img class="img-fluid border p-2" src="#" alt="">
+                            <h5 class="fw-light lh-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est. Nullam scelerisque libero nunc, vitae ullamcorper elit volutpat ut.</h5>
+                            <h5 class="mb-1">Client Name</h5>
+                            <h6 class="fw-light text-white fst-italic mb-0">Profession</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid newsletter bg-primary py-5 my-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-white mb-3"><span class="fw-light text-dark">Si tienes una consulta</span> Envia un correo electronico</h1>
+                <p class="text-white mb-4">RAS.@gmail.com</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="position-relative w-100 mt-3 mb-2">
+                        <input class="form-control w-100 py-4 ps-4 pe-5" type="text" placeholder="Envianos un correo"
+                            style="height: 48px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-white fs-4"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-white footer">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-primary">R.A.S</h1>
+                    </a>
+                    <p class="mb-0">Promover la cultura de mejora que permita incrementar el desempeño institucional del SENA.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="mb-4">información</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>colombia</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+57 xxxxxxxxxx</p>
+                    <p><i class="fa fa-envelope me-3"></i>RAS.@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="mb-4">paginas informativas extras</h5>
+                    <a class="btn btn-link" href="https://www.argentina.gob.ar/salud">ministerio de salud argentina</a>
+                    <a class="btn btn-link" href="https://www.mayoclinic.org/es/departments-centers/international?customer_id=465-093-8658&mc_id=google&campaign=20463333343&geo=1029436&kw=clinic%20mayo&ad=679624138502&network=g&sitetarget=&adgroup=158147915731&extension=&target=kwd-305926373726&matchtype=b&device=c&account=4650938658&invsrc=spanish&placementsite=enterprise&gclid=EAIaIQobChMIupOszJ36hQMVc6xaBR2o6QTOEAAYASAAEgKb4_D_BwE">mayo clinic - clinica de cuidados ambientales</a>
+                    <a class="btn btn-link" href="https://www.asgardhospitalveterinari.es/">ASGARD hospital veterinario</a>
+                    <a class="btn btn-link" href="https://www.ucm.es/">Universidad Complutense de Madrid</a>
+
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="mb-4">apoyo</h5>
+                    <a class="btn btn-link" href="https://oferta.senasofiaplus.edu.co/sofia-oferta/">SENA</a>
+                    <a class="btn btn-link" href="https://gestionindustrialsena.blogspot.com/p/siga.html">siga</a>
+                    <a class="btn btn-link" href="https://www.gaiambiente.es/?gad_source=1&gclid=EAIaIQobChMIz6DjsaD6hQMV5alaBR3YUwUnEAAYAiAAEgLfa_D_BwE">gaiambiente</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">R.A.S</a>, protección personal y ambiental.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        apoyado por el <a class="border-bottom" href="">SENA</a> creado por Jharold David Doria Mendoza <a href="">editado por Camilo Alejandro Zapata Montero</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">RAS</a>
+                            <a href="">Cookies</a>
+                            <a href="">ayuda</a>
+                            <a href="">creditos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
